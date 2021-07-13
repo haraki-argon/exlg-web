@@ -92,3 +92,8 @@ p,a,font,h1,h2,h3,h4,h5,h6,input,span,li{
 	font-size: 1.5vw;
 	line-height: 3.5vw;
 }
+.txt-htkt:before{
+	content:"“ ";
+	font-size: 2.5vw;
+	color: #3F48CC;
+}

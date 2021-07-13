@@ -107,3 +107,22 @@ body{
 	margin-left: 2vw;
 	
 }
+.hitokoto{
+	height: 5vw;
+	width: 15vw;
+	border: none;
+	border-radius: 0.5vw;
+	transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-webkit-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	cursor: pointer;
+}
+.hitokoto p{
+	font-size: 2vw;
+	line-height: 5vw;
+	text-align: center;
+}
+.hitokoto:hover{
+	background-color: #00A2E8;
+}
