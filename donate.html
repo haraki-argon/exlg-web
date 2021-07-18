@@ -16,6 +16,16 @@
 		<link rel="stylesheet" type="text/css" href="css/donate.css"/>
 		<link rel="stylesheet" type="text/css" href="css/common.css"/>
 		<link rel="icon" type="image/x-ico" href="img/logo.png"/>
+		<script src="https://s3.pstatp.com/cdn/expire-1-M/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			window.onload=function(){
+				hobj=$.ajax({url:"https://gitee.com/haraki/exlg/issues/I40K8Z"});
+				hc=hobj.responseText;
+				// hd=hc.search("///");
+				// log(hd);
+			}
+			
+		</script>
 	</head>
 	<body>
 		<p class="exlg-col-blue3 title">投喂我们</p>
@@ -25,7 +35,7 @@
 			<p class="txt-zw">暂时未开放投喂通道</p>
 			<div class="exlg-bgcol-blue1 linein"></div>
 			<p class="txt-bt">鸣谢名单</p>
-			<p class="txt-zw">暂无</p>
+			<p class="txt-zw" id="nl">暂无</p>
 		</div>
 		
 		<ul class="menuul">
