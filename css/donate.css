@@ -70,3 +70,45 @@ body{
 	box-shadow: 0 0.4vw 0.8vw #999;
 	/* cursor: pointer; */
 }
+
+
+.cul{
+	list-style: none;
+	height: 45vw;
+	margin-top: 1vw;
+}
+.cul li{
+	height: 5.5vw;
+	width: 40%;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	background-color: #ff955b;
+	margin-bottom: 1vw;
+	border-radius: 0.5vw;
+	float: left;
+	margin-right: 2vw;
+	transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-webkit-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+}
+.cul li:hover{
+	background-color: #ffc152;
+}
+.cul li a{
+	display: block;
+	height: 5.5vw;
+	width: 100%;
+}
+.cul li p{
+	display: inline-block;
+	color: white;
+	line-height: 0.7vw;
+	font-size: 1vw;
+	/* margin-bottom: 1vw; */
+	margin-left: 2vw;
+}
+.monier-name{
+	font-size: 2.5vw !important;
+	line-height: 3.5vw !important;
+}
