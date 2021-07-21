@@ -97,6 +97,7 @@ body{
 	border: 2px solid white;
 	margin-top: 0.5vw;
 	margin-bottom: -1.5vw;
+	border-radius: 2vw;
 }
 .cul li p{
 	display: inline-block;
