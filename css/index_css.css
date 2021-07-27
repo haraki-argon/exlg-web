@@ -1,15 +1,8 @@
 
-body{
-	height: 100%;
-	width: 100%;
-	background: url(../img/index_bg.png);
-	background-size: 70%;
-	background-repeat: no-repeat;
-	overflow-y: scroll;
-}
 .slogan{
-	margin-top: 32vw;
-	margin-left: 8vw;
+	position: absolute;
+	top: 32vw;
+	left: 8vw;
 	font-size: 3vw;
 }
 .install-but{
@@ -41,44 +34,4 @@ body{
 	width: 4vw;
 	/* float: left; */
 	margin-bottom: -1vw;
-}
-.menuul{
-	position: fixed;
-	top:5vw;
-	right:9vw;
-	list-style: none;
-}
-.menuul li{
-	height: 5vw;
-	width: 10vw;
-	margin-bottom: 2vw;
-}
-.menuul li button{
-	height: 5vw;
-	width: 15vw;
-	border: none;
-	border-radius: 0.5vw;
-	transition: background-color 0.5s;
-	-moz-transition: background-color 0.5s;
-	-webkit-transition: background-color 0.5s;
-	-o-transition: background-color 0.5s;
-	cursor: pointer;
-}
-.menuul li button:hover{
-	background-color: #7BB9EC !important;
-}
-.menuul li button p{
-	font-size: 1.5vw;
-}
-.checked{
-	background-color: #7BB9EC !important;
-}
-.checked p{
-	color: #3F48CC;
-}
-.maker-info{
-	position: absolute;
-	left: 8vw;
-	bottom: 4vw;
-	font-size: 1vw;
 }
