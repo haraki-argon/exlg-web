@@ -16,7 +16,7 @@ function openNightMode(){
 $(document).ready(function(){
 	var d = new Date();
 	var nowhour = d.getHours();
-	if(nowhour>=10||nowhour<=6){
+	if(nowhour>=22||nowhour<=6){
 		openNightMode();
 	}
 });
