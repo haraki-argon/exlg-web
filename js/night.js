@@ -19,4 +19,18 @@ $(document).ready(function(){
 	if(nowhour>=22||nowhour<=6){
 		openNightMode();
 	}
+	var baop=localStorage.getItem("extendluoguopenba");
+	if(baop=="1"){
+		try{
+			document.querySelector("p.maker-infor a").className+=" minstdfx";
+		}
+		catch{
+			document.querySelector("p.maker-info a").className+=" minstdfx";
+		}
+	}
 });
+
+function minstdfx(open){
+	//appear 0 disappear 1
+	localStorage.setItem("extendluoguopenba",open);
+}

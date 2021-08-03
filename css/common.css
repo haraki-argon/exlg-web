@@ -182,7 +182,9 @@ body{
 	height: auto;
 	margin-bottom: 5vw;
 }
-
+.minstdfx{
+	display: none;
+}
 
 
 /*night mode*/
