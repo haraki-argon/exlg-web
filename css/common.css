@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
-p,a,font,h1,h2,h3,h4,h5,h6,input,span,li{
+p,a,font,h1,h2,h3,h4,h5,h6,input,span,li,button{
 	font-family: shsbold;
 }
 .exlg-bgcol-blue1{
@@ -208,4 +208,8 @@ body.night{
 }
 .content.night{
 	color: #FFFFFF;
+}
+html.pray{
+	-webkit-filter: grayscale(100%);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
 }

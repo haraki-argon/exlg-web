@@ -14,7 +14,8 @@
 
 .cul{
 	list-style: none;
-	height: 45vw;
+	height: 26vw;
+	/* display: block; */
 	margin-top: 1vw;
 }
 .cul li{
@@ -51,4 +52,47 @@
 .monier-name{
 	font-size: 2.5vw !important;
 	line-height: 3.5vw !important;
+}
+.content span{
+	line-height: 3vw;
+	font-size: 1.5vw;
+	padding-left: 2vw;
+}
+/* .content span:before{
+	content: "● ";
+	color: black;
+	font-size: 1vw;
+	line-height: 3vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+} */
+.content input{
+	height: 2.5vw;
+	padding:0 1vw;
+	float:right;
+	margin-right:35vw;
+	margin-bottom:0.2vw;
+}
+.jrg{
+	padding-bottom: 1vw;
+}
+.content button{
+	margin-left: 2vw;
+	height: 3vw;
+	width:auto;
+	font-size:1.5vw;
+	background: #3f48cc;
+	padding:0 1vw;
+	border:none;
+	color:white;
+	cursor:pointer;
+	border-radius:0.5vw;
+	margin-top:0.5vw;
+}
+.content button:hover{
+	transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-webkit-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	background: #00a2e8;
 }

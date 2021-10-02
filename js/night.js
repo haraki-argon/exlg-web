@@ -16,8 +16,14 @@ function openNightMode(){
 $(document).ready(function(){
 	var d = new Date();
 	var nowhour = d.getHours();
+	var nowmon = d.getMonth();
+	var nowday = d.getDate();
+	// console.log(nowmon+" "+nowday);
 	if(nowhour>=22||nowhour<=6){
 		openNightMode();
+	}
+	if(nowmon==11&&nowday==13){
+		document.querySelector("html").className+=" pray";
 	}
 	var baop=localStorage.getItem("extendluoguopenba");
 	if(baop=="1"){
