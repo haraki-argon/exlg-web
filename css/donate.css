@@ -57,6 +57,8 @@
 	line-height: 3vw;
 	font-size: 1.5vw;
 	padding-left: 2vw;
+	display:inline-block;
+	height:3vw;
 }
 /* .content span:before{
 	content: "● ";
@@ -67,11 +69,9 @@
 	padding-right: 1vw;
 } */
 .content input{
-	height: 2.5vw;
-	padding:0 1vw;
-	float:right;
-	margin-right:35vw;
-	margin-bottom:0.2vw;
+	height: 2vw;
+	padding:0.25vw 1vw;
+	/* margin-bottom:0.2vw; */
 }
 .jrg{
 	padding-bottom: 1vw;

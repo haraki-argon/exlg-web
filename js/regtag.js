@@ -6,5 +6,5 @@ function fx(){
 		minfx.innerText="再点一次确认！";
 		return;
 	}
-	window.location.href="https://service-cmrlfv7t-1305163805.sh.apigw.tencentcs.com/release/"+afx+"/"+bfx+"/"+cfx+"/";
+	window.location.href="https://service-cmrlfv7t-1305163805.sh.apigw.tencentcs.com/release/"+bfx+"/"+afx+"/"+cfx+"/";
 }
