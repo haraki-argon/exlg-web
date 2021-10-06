@@ -66,3 +66,9 @@
 .hitokoto:hover{
 	background-color: #00A2E8;
 }
+.cheer{
+	background-color: #e68916 !important;
+}
+.cheer:hover{
+	background-color: #fcbd00 !important;
+}
