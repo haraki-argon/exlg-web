@@ -125,8 +125,23 @@ body{
 	/* display: inline-flex; */
 	float: left;
 }
-.bgimg.fascinated{
-	background: url(../img/index_bg_222.png) ;
+.fascinated{
+	background: url(../img/index_bg_222.png);
+	background-size: 70vw;
+	background-repeat: no-repeat;
+}
+.sakural{
+	background: url(../img/index_bg_sakura.png);
+	background-size: 70vw;
+	background-repeat: no-repeat;
+}
+.fallal{
+	background: url(../img/index_bg_fall.png);
+	background-size: 70vw;
+	background-repeat: no-repeat;
+}
+.birthal{
+	background: url(../img/index_bg_birth.png);
 	background-size: 70vw;
 	background-repeat: no-repeat;
 }

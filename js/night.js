@@ -28,6 +28,12 @@ $(document).ready(function(){
 	if(nowmon==1&&nowday==22){
 		document.querySelector(".bgimg").className+=" fascinated";
 	}
+	if(nowmon==2){
+		document.querySelector(".bgimg").className+=" sakural";
+	}
+	if(nowmon==8){
+		document.querySelector(".bgimg").className+=" fallal";
+	}
 	var baop=localStorage.getItem("extendluoguopenba");
 	if(baop=="1"){
 		try{
