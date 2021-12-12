@@ -6,19 +6,11 @@ function openNightMode(){
 		nlist[i].className+=" night";
 	}
 }
-// window.onload=function(){
-// 	var d = new Date();
-// 	var nowhour = d.getHours();
-// 	if(nowhour>=10||nowhour<=6){
-// 		openNightMode();
-// 	}
-// }
 $(document).ready(function(){
 	var d = new Date();
 	var nowhour = d.getHours();
 	var nowmon = d.getMonth();
 	var nowday = d.getDate();
-	// console.log(nowmon+" "+nowday);
 	if(nowhour>=22||nowhour<=6){
 		openNightMode();
 	}

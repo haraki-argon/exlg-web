@@ -3,7 +3,7 @@
 	padding: 0;
 }
 p,a,font,h1,h2,h3,h4,h5,h6,input,span,li,button{
-	font-family: shsbold;
+	font-family: 'Noto Sans SC', sans-serif;font-weight:700;
 }
 .exlg-bgcol-blue1{
 	background-color: #7bb9ec;
@@ -116,7 +116,7 @@ body{
 .bgimg{
 	height: 90vh;
 	width: 90vw;
-	background: url(../img/index_bg.png);
+	background: url("https://s2.loli.net/2021/12/12/TAZzygBW9cnYFkR.png");
 	background-size: 70vw;
 	background-repeat: no-repeat;
 	position: absolute;
@@ -126,22 +126,22 @@ body{
 	float: left;
 }
 .fascinated{
-	background: url(../img/index_bg_222.png);
+	background: url("https://s2.loli.net/2021/12/12/4JrwkCMXeQZjgby.png");
 	background-size: 70vw;
 	background-repeat: no-repeat;
 }
 .sakural{
-	background: url(../img/index_bg_sakura.png);
+	background: url("https://s2.loli.net/2021/12/12/ZdGj3rsaJnmH1Tt.png");
 	background-size: 70vw;
 	background-repeat: no-repeat;
 }
 .fallal{
-	background: url(../img/index_bg_fall.png);
+	background: url("https://s2.loli.net/2021/12/12/dzGlrs1QNaYDy4B.png");
 	background-size: 70vw;
 	background-repeat: no-repeat;
 }
 .birthal{
-	background: url(../img/index_bg_birth.png);
+	background: url("https://s2.loli.net/2021/12/12/kUj54FvKfoGgVHe.png");
 	background-size: 70vw;
 	background-repeat: no-repeat;
 }
@@ -194,7 +194,7 @@ body{
 	margin-top:22vw;
 	margin-left:41vw;
 	font-size: 5vw;
-	font-family: shsheavy !important;
+	font-family: 'Noto Sans SC', sans-serif !important;font-weight:900;
 }
 .content{
 	width: 70vw;
