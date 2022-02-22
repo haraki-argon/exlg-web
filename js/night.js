@@ -25,6 +25,9 @@ $(document).ready(function(){
 	if(nowmon==11&&nowday==13){
 		document.querySelector("html").className+=" pray";
 	}
+	if(nowmon==1&&nowday==22){
+		document.querySelector(".bgimg").className+=" fascinated";
+	}
 	var baop=localStorage.getItem("extendluoguopenba");
 	if(baop=="1"){
 		try{

@@ -125,6 +125,11 @@ body{
 	/* display: inline-flex; */
 	float: left;
 }
+.bgimg.fascinated{
+	background: url(../img/index_bg_222.png) ;
+	background-size: 70vw;
+	background-repeat: no-repeat;
+}
 .menuul{
 	position: fixed;
 	top:5vw;

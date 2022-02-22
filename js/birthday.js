@@ -4,12 +4,12 @@ $(document).ready(function(){
 	var nmon = da.getMonth();
 	var nday = da.getDate();
 	
-	console.log(nmon+" "+nday);
+	// console.log(nmon+" "+nday);
 	var tep=document.querySelectorAll(".cul li");
 	var ter=document.querySelectorAll(".cul li a");
 	var ten=document.querySelectorAll(".cul li a p");
 	for(var i=1;i<birth.length;i++){
-		console.log(birth[i][0]+" "+birth[i][1]);
+		// console.log(birth[i][0]+" "+birth[i][1]);
 		if(nmon+1==birth[i][0]&&nday==birth[i][1]){
 			tep[i-1].className="cheer";
 			ter[i-1].title="祝 "+ten[i-1].innerText+" 生日快乐！";
